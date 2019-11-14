@@ -1,0 +1,22 @@
+The paper considers probability distributions as input and output, what are the benefits/drawbacks of this paradigm?
+Considering the uncertainty of the samples can useful when the knowledge about the sample itself is not good, or we derive the sample from other estimations (such as imputation). Compress the information to go from a point in a high dimensional space into a distribution lying in lower dimensional space. 
+drawback: computational expensive, and the data is not in the correct form -> it needs to be re-designed, encoded etc...
+
+
+- Do you think this approach is somehow related to some other methods you are more familiar with? 
+With the certain interpretation of the image can be seen as a standard CNN
+Non-local NN
+
+
+
+- What could be the possible applications in our domain, and which kind of inputs could be used?
+Applications:
+-> Registration - Reference to the paper from Marc and Guotai
+-> Probabilistic ground truth for segmentation from clinicians.
+-> Parameterised 3D structures that can be translated into point clouds - Cardiac application based on a mesh created from the segmentation
+-> Uncertain inputs due to measurements and/or imputed values
+
+Inputs:
+-> Cardiac mesh
+-> Every data in general
+
